@@ -34,7 +34,8 @@ Choose the corresponding config file and run
 
 # Freeze Graph
 Choose the corresponding config file and run
-`python /github/models/research/object_detection/export_inference_graph.py --input_type image_tensor --pipeline_config_path=./ssd_mobilenet_v1_tello.config --trained_checkpoint_prefix ./train/model.ckpt-6513 --output_directory ./output \
+```
+python /github/models/research/object_detection/export_inference_graph.py --input_type image_tensor --pipeline_config_path=./ssd_mobilenet_v1_tello.config --trained_checkpoint_prefix ./train/model.ckpt-6513 --output_directory ./output \
        --config_override " \
             model{ \
               ssd { \
@@ -44,4 +45,5 @@ Choose the corresponding config file and run
                   } \
                 } \
               } \
-            }"`
+            }"
+```
