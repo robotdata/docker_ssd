@@ -28,6 +28,8 @@ windex_data_voc_format
 Choose the corresponding config file and run
 `python /github/models/research/object_detection/model_main.py --alsologtostderr -model_dir=./train --pipeline_config_path=./ssd_mobilenet_v1_tello.config` <br/>
 monitoring: `tensorboard --logdir=train`
+<br/>
+If `could not create cudnn handle: CUDNN_STATUS_INTERNAL_ERROR` is encoutered, possibly the GPU is out of memory. Try to reduce the batch size.
 
 # Evaluation
 Choose the corresponding config file and run
