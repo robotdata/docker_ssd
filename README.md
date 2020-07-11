@@ -4,6 +4,7 @@ It is recommended to read the orginal instruction. But the installation of files
 
 # Set up
 * git clone && cd github
+* docker login registry.gitlab.com
 * docker pull registry.gitlab.com/haiandaidi/docker_ssd:2020_07_11
 * docker run --gpus all -it -v $PWD/github:/github:rw -w /github --network=host registry.gitlab.com/haiandaidi/docker_ssd:2020_07_11
 * cd train_ssd_mobileneet
