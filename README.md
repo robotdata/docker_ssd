@@ -11,10 +11,11 @@ It is recommended to read the orginal instruction. But the installation of files
 # Preparing of the training data
 The training needs data of voc format.
 ```
-windex_data_voc_format<br/>
-    Annotations<br/>
-    JPEGImages<br/>
-    xxx_label.pbtxt # label information
+# Folders
+windex_data_voc_format
+    Annotations # annotations
+    JPEGImages # images
+    xxx_label.pbtxt # label id information
 ```
 * change `config.yml`
 * change `ssd_mobilenet_v1_xxx.config`
