@@ -31,7 +31,7 @@ monitoring: `tensorboard --logdir=train`
 <br/>
 If `could not create cudnn handle: CUDNN_STATUS_INTERNAL_ERROR` is encoutered, possibly the GPU is out of memory. Try to reduce the batch size.
 
-# Evaluation
+# Evaluation (not working)
 Choose the corresponding config file and run
 `python /github/models/research/object_detection/eval.py --logtostderr --checkpoint_dir=./train --eval_dir=./eval --pipeline_config_path=./ssd_mobilenet_v1_tello.config`
 
