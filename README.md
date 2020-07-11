@@ -10,10 +10,12 @@ It is recommended to read the orginal instruction. But the installation of files
 
 # Preparing of the training data
 The training needs data of voc format.
+```
 windex_data_voc_format<br/>
     Annotations<br/>
     JPEGImages<br/>
-    xxx_label.pbtxt # label information <br/>
+    xxx_label.pbtxt # label information
+```
 * change `config.yml`
 * change `ssd_mobilenet_v1_xxx.config`
 * python build1_trainval.py
