@@ -3,7 +3,7 @@ The original source: https://github.com/naisy/train_ssd_mobilenet <br/>
 It is recommended to read the orginal instruction. But the installation of files and setup are already done in the docker image.
 
 # Set up
-* git clone && cd github
+* git clone && cd docker_ssd
 * docker login registry.gitlab.com
 * docker pull registry.gitlab.com/haiandaidi/docker_ssd:2020_07_11
 * docker run --gpus all -it -v $PWD/github:/github:rw -w /github --network=host registry.gitlab.com/haiandaidi/docker_ssd:2020_07_11
