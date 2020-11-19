@@ -20,7 +20,7 @@ windex_data_voc_format
 ```
 * change `config.yml`
 * change `ssd_mobilenet_v1_xxx.config`
-* python build1_trainval.py
+* python build1_trainval.py # This code assume all the images have at least one object.
 * python build2_tf_record.py <br/>
   If erros of existing folder occurs, just delete those folders by `rm -rf xxx/xxx`
 
