@@ -36,7 +36,7 @@ Choose the corresponding config file and run
 `python /github/models/research/object_detection/eval.py --logtostderr --checkpoint_dir=./train --eval_dir=./eval --pipeline_config_path=./ssd_mobilenet_v1_tello.config`
 
 # Freeze Graph
-Choose the corresponding config file and run
+In this folder of `train_ssd_mobilenet`, choose the corresponding config file and run
 ```
 python /github/models/research/object_detection/export_inference_graph.py --input_type image_tensor --pipeline_config_path=./ssd_mobilenet_v1_tello.config --trained_checkpoint_prefix ./train/model.ckpt-6513 --output_directory ./output \
        --config_override " \
